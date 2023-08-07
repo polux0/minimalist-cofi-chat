@@ -22,3 +22,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Ignore data directory
+data/
+data_problematic
