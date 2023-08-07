@@ -1,4 +1,7 @@
-chromadb
+# as it should be
+# chromadb
+#temporary, as we are getting this error: RuntimeError: Your system has an unsupported version of sqlite3. Chroma requires sqlite3 >= 3.35.0.
+chromadb==0.3.29
 langchain
 openai
 pypdf
