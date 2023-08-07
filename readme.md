@@ -24,4 +24,4 @@ pip install -r requirements.txt
 python create_embeddings.py
 
 6. **Run the application**
-streamlit run minimalist_socialism_chatbot_app.py
+streamlit run app.py
