@@ -23,6 +23,9 @@ __pycache__/
 dist/
 build/
 
-# Ignore data directory
+# Ignore data directories
 data/
-data_problematic
+data_minimal
+
+# Ignore connected embeddings directory
+data_embeddings/
