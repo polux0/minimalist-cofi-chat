@@ -17,7 +17,7 @@ def load_embeddings():
     embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
     # load the vector database
-    embeddings_persist_directory=f"./{DATA_DIRECTORY}-embeddings"
+    embeddings_persist_directory=f"./{DATA_DIRECTORY}_embeddings"
 
     vector_db = Chroma(persist_directory=embeddings_persist_directory, embedding_function=embedding_function)
     print(vector_db)
