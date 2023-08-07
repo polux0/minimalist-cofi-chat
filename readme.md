@@ -3,9 +3,8 @@
 This repository contains a minimalist socialism chatbot application. Follow the steps below to set up and run the application:
 
 1. **Create virtual environment**
-python3 -m venv /your_location/minimalist-socialism-chatbot
-source /your_location/minimalist-socialism-chatbot/bin/activate
-
+  i.python3 -m venv .
+  ii.source ./bin/activate
 
 2. **Upgrade `pip` and install `setuptools`**
 pip install --upgrade pip
